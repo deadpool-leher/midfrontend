@@ -17,7 +17,9 @@ const About = () => {
 return (
 <div className="intro section" id="about">
 <div className="container">
-  <p>Hi, I’m Jethro Supit</p>
+  <p>
+    {about.parag}
+  </p>
   <div className="units-row units-split wrap">
     <div className="unit-20">
       <img src="img/gga skli.jpg" alt="Avatar" />
